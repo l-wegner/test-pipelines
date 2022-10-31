@@ -13,11 +13,11 @@
 # The workflow will not run if there is no tag pushed with a "v" prefix and no change pushed to your 
 # default branch.
 on: push
-runs-on: self-hosted
+
 
 jobs:
   might_release:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - name: Checkout
         uses: actions/checkout@v2
