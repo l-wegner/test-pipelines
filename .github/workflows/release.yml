@@ -32,7 +32,7 @@ jobs:
         
       - name: Prepare Release Variables 
         id: vars
-        uses: ignite-hq/cli/actions/release/vars@develop
+        uses: ignite/cli/actions/release/vars@develop
 
       - name: Issue Release Assets 
         uses: ignite/cli/actions/cli@develop
